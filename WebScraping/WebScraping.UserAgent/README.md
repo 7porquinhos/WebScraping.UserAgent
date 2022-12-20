@@ -7,7 +7,7 @@ WebScraping.UserAgent DLL para capturar o User Agente do seu navegado, muito uti
 Use the package manager [Package Manager](https://www.nuget.org/packages/WebScraping.UserAgent) to install WebScraping.UserAgent.
 
 ```bash
-PM > Install-Package WebScraping.UserAgent -Version 1.0.0
+PM > Install-Package WebScraping.UserAgent -Version 1.0.1
 ```
 
 ## Usage
