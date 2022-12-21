@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Company>PalaceDevelopers</Company>
+    <Description>Dll usada para identificar o UserAgent do seu navegador, utilizado em WebScraping com HTML Agility Pack</Description>
+    <Copyright>Copyright ©  2022</Copyright>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="UserAgentLogo.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="UserAgentLogo.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="HtmlAgilityPack" Version="1.11.46" />
+  </ItemGroup>
+
+</Project>

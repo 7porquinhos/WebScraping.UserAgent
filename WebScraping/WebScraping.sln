@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebScraping.UserAgent", "We
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebScraping.UserAgentTests", "WebScraping.UserAgentTests\WebScraping.UserAgentTests.csproj", "{D53E9BD5-DD52-4E9E-BDD2-E422C2B3043A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebScraping.UserAgent.Core", "WebScraping.UserAgent.Core\WebScraping.UserAgent.Core.csproj", "{0A810036-CDFF-4AD4-90E6-5515A36B9F98}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebScraping.UserAgent.CoreTests", "WebScraping.UserAgent.CoreTests\WebScraping.UserAgent.CoreTests.csproj", "{04E89DBC-7B91-4788-8CFB-17CF0366E36B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{D53E9BD5-DD52-4E9E-BDD2-E422C2B3043A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D53E9BD5-DD52-4E9E-BDD2-E422C2B3043A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D53E9BD5-DD52-4E9E-BDD2-E422C2B3043A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A810036-CDFF-4AD4-90E6-5515A36B9F98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A810036-CDFF-4AD4-90E6-5515A36B9F98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A810036-CDFF-4AD4-90E6-5515A36B9F98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A810036-CDFF-4AD4-90E6-5515A36B9F98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04E89DBC-7B91-4788-8CFB-17CF0366E36B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04E89DBC-7B91-4788-8CFB-17CF0366E36B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04E89DBC-7B91-4788-8CFB-17CF0366E36B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04E89DBC-7B91-4788-8CFB-17CF0366E36B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
