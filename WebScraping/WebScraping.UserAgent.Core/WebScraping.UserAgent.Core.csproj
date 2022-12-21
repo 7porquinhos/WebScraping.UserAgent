@@ -7,19 +7,35 @@
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Company>PalaceDevelopers</Company>
     <Description>Dll usada para identificar o UserAgent do seu navegador, utilizado em WebScraping com HTML Agility Pack</Description>
-    <Copyright>Copyright ©  2022</Copyright>
+    <Copyright>PalaceDevelopers ©  2022</Copyright>
+    <PackageProjectUrl>https://github.com/7porquinhos/WebScraping.UserAgent/tree/main/WebScraping/WebScraping.UserAgent.Core</PackageProjectUrl>
+    <PackageIcon>UserAgentLogo.png</PackageIcon>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/7porquinhos/WebScraping.UserAgent/tree/main/WebScraping/WebScraping.UserAgent.Core</RepositoryUrl>
+    <PackageTags>useragent,webscraping,htmlagilitypack</PackageTags>
+    <VersionPrefix>1.0.1</VersionPrefix>
   </PropertyGroup>
-
-  <ItemGroup>
-    <None Remove="UserAgentLogo.png" />
-  </ItemGroup>
 
   <ItemGroup>
     <Content Include="UserAgentLogo.png" />
   </ItemGroup>
 
   <ItemGroup>
+    <None Include="..\..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="HtmlAgilityPack" Version="1.11.46" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="UserAgentLogo.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>

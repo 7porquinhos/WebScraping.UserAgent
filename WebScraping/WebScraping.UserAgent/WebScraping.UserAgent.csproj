@@ -16,7 +16,7 @@
     <PackageProjectUrl>https://github.com/7porquinhos/WebScraping.UserAgent</PackageProjectUrl>
     <PackageIcon>UserAgentLogo.png</PackageIcon>
     <VersionPrefix>1.0.1</VersionPrefix>
-	<Version>1.0.1</Version>
+    <Version>1.0.1</Version>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
